@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -5,7 +6,8 @@ export default function Index() {
     <View
     className="flex-1 justify-center items-center"
     >
-      <Text className="text-5xl  font-bold text-accent">welcome</Text>
+      <Text className="text-5xl  font-bold text-dark-200">welcome</Text>
+
     </View>
   );
 }
